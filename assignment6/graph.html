@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Bootstrap Example</title>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<script>
+    function openNav() {
+        document.getElementById("mySidenav").style.width = "250px";
+    }
+
+    function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+    }
+</script>
+
+<body>
+    <div class="row">
+        <!--Left navigation bar starts-->
+        <div class="col-sm-2">
+            <div id="wrapper" class="toggled">
+                <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; MENU BAR</span>
+                <div id="mySidenav" class="sidenav">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <img src="logo.png" alt="logo" width="50%" class="logo" />
+                    <a href="#">Markets</a>
+                    <a href="#">Derivatives</a>
+                    <a href="#">IPO</a>
+                    <a href="#">Mutual Funds</a>
+                    <a href="#">Announcements</a>
+                    <a href="#">News</a>
+                    <a href="#">Shares</a>
+                    <a href="#">My Portfolio</a>
+                    <a href="#">Financial Planning</a>
+                    <a href="#">Loans</a>
+                    <a href="#">Services</a>
+                </div>
+
+            </div>
+            &nbsp; &nbsp; &nbsp;&nbsp;
+
+        </div>
+        <!--Left navigation bar ends-->
+
+        <div class="col-sm-10">
+            <!--Right navigation bar starts-->
+            <nav class="navbar navbar-default" style="cursor:pointer">
+                <div class="container-fluid">
+
+                    <ul class="nav navbar-nav" style="width:100%">
+                        <li><a href="#">Dashboard</a></li>
+                        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"><span
+                                    class="badge">2</span>Notifications <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Notification 1</a></li>
+                                <li><a href="#">Notification 2</a></li>
+                                <li><a href="#">Notification 3</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#"><span class="glyphicon glyphicon-print"></span></a></li>
+                        <li><a href="#"> <span class="glyphicon glyphicon-search"></span> &nbsp;Search</li>
+                    
+                   <li><a  href="#"></a></li>
+                        <li class="nav navbar-right"><a  href="#">Log out</a></li>
+                        <li class="dropdown navbar-right"><a class="dropdown-toggle" data-toggle="dropdown" href="#">SETTINGS <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Action</a></li>
+                                <li><a href="#">Another actions</a></li>
+                                <li><a href="#">Notification </a></li>
+                            </ul>
+                        </li>
+                        <li class="navbar-right"><a href="#"> Account</a></li>
+                    </ul>
+                </div>
+            </nav>
+
+            <div class="main">
+                <!--First Row starts-->
+                <div class="row">
+
+                    <div class="col-md-6">
+                        <p class="solid">
+                            <img src="g2.png" alt="image" width="90%" height="90%" />
+                        </p>
+                    </div>
+                    <div class="col-md-6">
+                        <p class="solid">
+                            <img src="g1.png" alt="image" width="90%" height="80% " />
+                        </p>
+                    </div>
+                </div>
+                <!--First Row ends-->
+
+                <!--Second Row starts-->
+                <div class="row">
+                    <div class="col-md-4">
+                        <p class="solid">
+                            <img src="graph4.png" alt="image" width="100%" height="160%" />
+                        </p>
+                    </div>
+                    <div class="col-md-8">
+                        <div class="checkbox">
+
+                                <h3><u>Answer these:</u></h3>
+                                <input type="checkbox" name="box"> Sign contract for "What are conference organizers
+                            afraid of?
+                            <button type="button" rel="tooltip" title="options"
+                                class="btn btn-info btn-simple btn-link" data-original-title="Edit Task">
+                                <i class="fa fa-edit"></i>
+                            </button>
+                            <button type="button" rel="tooltip" title="options"
+                                class="btn btn-danger btn-simple btn-link" data-original-title="Remove">
+                                <i class="fa fa-times"></i>
+                            </button>
+                            <br>
+                            <hr>
+                            <input type="checkbox" name="box" >Lines From Great Russian Literature? Or
+                            E-mails From My Boss?
+                            <button type="button" rel="tooltip" title="options"
+                                class="btn btn-info btn-simple btn-link" data-original-title="Edit Task">
+                                <i class="fa fa-edit"></i>
+                            </button>
+                            <button type="button" rel="tooltip" title="options"
+                                class="btn btn-danger btn-simple btn-link" data-original-title="Remove">
+                                <i class="fa fa-times"></i>
+                            </button>
+                            <br>
+                            <hr>
+                            <input type="checkbox" name="box">Flooded: One year later, assessing what was lost
+                            and what was found when a ravaging rain swept through metro Detroit
+                            <button type="button" rel="tooltip" title="options"
+                                class="btn btn-info btn-simple btn-link" data-original-title="Edit Task">
+                                <i class="fa fa-edit"></i>
+                            </button>
+                            <button type="button" rel="tooltip" title="options"
+                                class="btn btn-danger btn-simple btn-link" data-original-title="Remove">
+                                <i class="fa fa-times"></i>
+                            </button>
+                            <br>
+                            <hr>
+                            <input type="checkbox" name="box"> Create 4 Invisible User Experiences you Never Knew
+                            About
+                            <button type="button" rel="tooltip" title="options"
+                                class="btn btn-info btn-simple btn-link" data-original-title="Edit Task">
+                                <i class="fa fa-edit"></i>
+                            </button>
+                            <button type="button" rel="tooltip" title="options"
+                                class="btn btn-danger btn-simple btn-link" data-original-title="Remove">
+                                <i class="fa fa-times"></i>
+                            </button>
+                            <br>
+                            <hr>
+                            <input type="checkbox" name="box">Read."Following makes Medium better"
+                            <button type="button" rel="tooltip" title="Edit Task"
+                                class="btn btn-info btn-simple btn-link" data-original-title="Edit Task">
+                                <i class="fa fa-edit"></i>
+                            </button>
+                            <button type="button" rel="tooltip" title="Remove"
+                                class="btn btn-danger btn-simple btn-link" data-original-title="Remove">
+                                <i class="fa fa-times"></i>
+                            </button>
+                        </br>
+                            <hr>
+                            <input type="checkbox" name="box">Unfollow 5 enemies from twitter
+                            <button type="button" rel="tooltip" title="Edit Task"
+                                class="btn btn-info btn-simple btn-link" data-original-title="Edit Task">
+                                <i class="fa fa-edit"></i>
+                            </button>
+                            <button type="button" rel="tooltip" title="Remove"
+                                class="btn btn-danger btn-simple btn-link" data-original-title="Remove">
+                                <i class="fa fa-times"></i>
+                            </button>
+                            <br>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!--Right navigation bar ends-->
+
+
+    </div>
+</body>
+
+</html>
